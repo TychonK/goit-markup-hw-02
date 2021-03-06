@@ -1,0 +1,205 @@
+:root {
+  --studio-prime-color: #2196f3;
+  --main-dark-color: #212121;
+  --gray-color: #757575;
+}
+
+body {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+ul {
+  list-style: none;
+}
+button {
+  font-family: inherit;
+}
+
+/* Logo */
+
+.logo {
+  font-size: 26px;
+  color: #000;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+}
+.logo-web {
+  color: var(--studio-prime-color);
+}
+.logo-studio {
+  color: #fff;
+}
+
+/* Site navigation */
+
+.navigation-page {
+  color: var(--main-dark-color);
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.15;
+}
+.navigation-page:hover,
+.navigation-page:focus {
+  color: var(--studio-prime-color);
+}
+
+/* Header contacts */
+
+.header-contact {
+  color: var(--gray-color);
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.15;
+}
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--studio-prime-color);
+}
+
+/* Hero */
+
+.hero-box {
+  background-color: #2f303a;
+  text-align: center;
+}
+.hero-title {
+  line-height: 1.36;
+  font-size: 44px;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.hero-order-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  background-color: var(--studio-prime-color);
+}
+
+/* Qualities list */
+
+.qualities-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--main-dark-color);
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.qualities-description {
+  font-size: 14px;
+  color: var(--gray-color);
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* What are we doing block */
+
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-dark-color);
+}
+
+/* Our team */
+
+.our-team-box {
+  background: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-dark-color);
+}
+.member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--main-dark-color);
+}
+.member-position {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--gray-color);
+}
+
+/* Portfolio page */
+
+/* Filters */
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-dark-color);
+  border: none;
+  border-radius: 4px;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: #fff;
+  background-color: var(--studio-prime-color);
+}
+
+/* Cards list */
+
+.cards-list a {
+  text-decoration: none;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-dark-color);
+}
+.card-description {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--gray-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+/* Footer address and contacts */
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.physical-address {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
